@@ -47,6 +47,7 @@ body {
     flex-direction: column;
     text-align: center;
     color: white;
+    background-size: cover;
 }
 
 .hero h1 {
