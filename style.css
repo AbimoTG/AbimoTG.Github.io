@@ -1,9 +1,9 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
@@ -40,7 +40,7 @@ body {
 
 .hero {
     height: 100vh;
-    background: url('your-background-image.jpg') no-repeat center center/cover;
+    background: url('kotak.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
