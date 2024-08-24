@@ -52,7 +52,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .hero {
-        background: url'images/kotak.jpg') no-repeat center center/contain;
+        background: url('images/kotak.jpg') no-repeat center center/contain;
         background-size: contain;
     }
 }
