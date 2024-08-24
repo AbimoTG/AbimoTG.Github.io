@@ -40,7 +40,7 @@ body {
 
 .hero {
     height: 100vh;
-    background: url('images/kotak.jpg') no-repeat center center/cover;
+    background: url("../images/portBackground.jpg") no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,14 +52,14 @@ body {
 
 @media screen and (max-width: 768px) {
     .hero {
-        background: url('images/kotak.jpg') no-repeat center center/contain;
+        background: url("../images/kotak.jpg") no-repeat center center/contain;
         background-size: contain;
     }
 }
 
 @media screen and (max-width: 480px) {
     .hero {
-        background: url('images/kotak.jpg') no-repeat center center/contain;
+        background: url("../images/kotak.jpg") no-repeat center center/contain;
         background-size: contain;
     }
 }
