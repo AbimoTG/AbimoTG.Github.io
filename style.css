@@ -40,30 +40,15 @@ body {
 
 .hero {
     height: 100vh;
-    background: url('kotak.jpg') no-repeat center center/cover;
+    background: url "../images/kotak.jpg" no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     color: white;
-    background-size: cover;
 }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-    .hero {
-        background: url('kotak.jpg') no-repeat center center/contain;
-        background-size: contain;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hero {
-        background: url('kotak.jpg') no-repeat center center/contain;
-        background-size: contain;
-    }
-}
 .hero h1 {
     font-size: 3rem;
     animation: fadeIn 2s ease-in-out;
