@@ -1,4 +1,3 @@
-// Add scroll effect
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
@@ -8,7 +7,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Smooth scrolling for navigation
 document.querySelectorAll('.nav-links a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
