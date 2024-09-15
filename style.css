@@ -40,7 +40,7 @@ body {
 
 .hero {
     height: 100vh;
-    background-img: url(../images/kotak.jpg);
+    background-img: url("C:/Users/tyrol_dg/documents/portfolio/kotak.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
